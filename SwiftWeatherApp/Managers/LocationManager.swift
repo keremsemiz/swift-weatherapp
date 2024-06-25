@@ -2,7 +2,7 @@
 //  LocationManager.swift
 //  WeatherApp
 //
-//  Created by Kerem Semiz on 2024-06-25.
+//  Created by Kerem Semiz on 25.06.24.
 //
 
 import Foundation
@@ -16,10 +16,11 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     override init() {
         super.init()
+        
         manager.delegate = self
     }
     
-    // one time user location https://developer.apple.com/documentation/corelocation/cllocationmanager/1620548-requestlocation
+    // one time location https://developer.apple.com/documentation/corelocation/cllocationmanager/1620548-requestlocation
     func requestLocation() {
         isLoading = true
         manager.requestLocation()
