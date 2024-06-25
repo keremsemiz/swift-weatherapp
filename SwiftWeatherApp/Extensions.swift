@@ -2,7 +2,7 @@
 //  Extensions.swift
 //  WeatherApp
 //
-//  Created by Kerem Semiz on 2024-06-25.
+//  Created by Kerem Semiz on 25.06.24.
 //
 
 import Foundation

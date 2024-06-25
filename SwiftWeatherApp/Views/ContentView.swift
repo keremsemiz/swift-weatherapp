@@ -2,12 +2,13 @@
 //  ContentView.swift
 //  WeatherApp
 //
-//  Created by Kerem Semiz on 2024-06-25.
+//  Created by Stephanie Diep on 2021-11-30.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    // Replace YOUR_API_KEY in WeatherManager with your own API key for the app to work
     @StateObject var locationManager = LocationManager()
     var weatherManager = WeatherManager()
     @State var weather: ResponseBody?

@@ -2,7 +2,7 @@
 //  LoadingView.swift
 //  WeatherApp
 //
-//  Created by Kerem Semiz on 2024-06-25.
+//  Created by Stephanie Diep on 2021-11-30.
 //
 
 import SwiftUI
