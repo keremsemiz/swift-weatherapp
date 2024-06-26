@@ -5,7 +5,7 @@
   },
   "weather": [
     {
-      "id": 701,
+      "id": 200,
       "main": "Mist",
       "description": "clear sky",
       "icon": "01d"
